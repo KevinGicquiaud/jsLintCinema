@@ -61,6 +61,14 @@ format suivant:
 }());
 ```
 
+Pour toutes les variables globales "used before they are defined", il
+faut les déclarer. Par exemple, le cas apparaît pour `angular` assez
+souvent. Vous pouvez ajouter la ligne suivante au début du fichier :
+
+```javascript
+/*globals angular, google */
+```
+
 ## Tests unitaires
 
 Nous utiliserons pour les tests unitaires ces outils qui s'articulent
