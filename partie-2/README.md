@@ -7,6 +7,15 @@ votre application qui consistera à valider l'ajout d'un commentaire.
 Pour cela, nous allons procéder à l'écriture d'un fichier *boilerplate*
 qui pourra vous servir pour d'autres projets du même type.
 
+## Installation de `angular-mocks`
+
+Vous aurez besoin d'utiliser `angular-mocks`. Il faut l'installer avec
+bower.
+
+```
+bower install --save-dev angular-mocks
+```
+
 ## Configuration de Karma
 
 Plaçons nos tests dans `tests/comments.js`.
@@ -15,6 +24,7 @@ Il vous fait éditer `karma.conf.js` pour charger la liste `files` afin
 qu'elle contienne&nbsp;:
 
 - L'ensemble des fichiers chargés par `index.html`
+- `angular-mocks.js`
 - Les fichiers de test, soit `tests/comments.js`
 
 ## Éléments spécifiques à Angular
