@@ -44,6 +44,23 @@ Maintenant que JSLint est activé, veuillez formatter correctement votre
 code pour que JSLint n'affiche **aucun** warning et **sans** désactiver
 de warnings.
 
+Les erreurs de formattage sont facilement corrigées avec le menu de
+PhpStorm `Code/Reformat code`.
+
+Veillez également à régler le nombre d'espaces par identation à 2 dans
+le fichier `.editorconfig`.
+
+Pour calmer JSLint sur le `use strict`, il faut faire des fichiers au
+format suivant:
+
+```javascript
+(function () {
+    'use strict';
+    
+    // your code here
+}());
+```
+
 ## Tests unitaires
 
 Nous utiliserons pour les tests unitaires ces outils qui s'articulent
