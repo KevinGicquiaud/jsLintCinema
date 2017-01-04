@@ -1,0 +1,18 @@
+<ion-view view-title="Commentaires Film">
+
+  <ion-content>
+
+    <h2>{{film.titre}}</h2>
+
+    <button class="button button-icon icon ion-plus" ng-click="create()"></button>
+
+    <ion-list>
+      <ion-item ng-repeat="comment in comments">
+        <p>{{comment.content}}</p>
+      </ion-item>
+    </ion-list>
+
+
+
+  </ion-content>
+</ion-view>

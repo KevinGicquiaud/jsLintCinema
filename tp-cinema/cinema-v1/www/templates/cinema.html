@@ -1,0 +1,29 @@
+<ion-view view-title="Détails cinéma">
+  <ion-content>
+
+    <div class="list card">
+
+      <a href="#" class="item item-icon-left">
+        <i class="icon ion-home"></i>
+        {{cinema.name}}
+      </a>
+
+      <a href="#" class="item item-icon-left">
+        <i class="icon ion-compass"></i>
+        {{cinema.adress}}, {{cinema.cp}}, {{cinema.ville}}
+      </a>
+
+      <a href="tel:0601020304" class="item item-icon-left">
+        <i class="icon ion-android-call"></i>
+        Téléphoner
+      </a>
+
+
+      <a class="button button-block button-positive" href="#/app/cinemas/{{cinema.id}}/{{cinema.latitude}}/{{cinema.longitude}}">Localiser</a>
+
+
+
+    </div>
+
+  </ion-content>
+</ion-view>

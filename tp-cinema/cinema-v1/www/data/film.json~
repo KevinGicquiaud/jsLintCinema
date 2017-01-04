@@ -1,0 +1,13 @@
+/**
+ Export to JSON plugin for PHPMyAdmin
+ @version 0.1
+ */
+
+// Database 'projet_angular'
+// projet_angular.film
+
+[{"id": 1,"titre": "Le Dernier loup","description": "1969. Chen Zhen, un jeune étudiant originaire de Pékin, est envoyé en Mongolie-Intérieure afin d’éduquer une tribu de bergers nomades."}, {"id": 2,"titre": "Divergente 2 : l’insurrection","description": "Dans un monde post-apocalyptique où la société a été réorganisée autour de 5 factions, Tris a mis à jour un complot mené par la faction dominante, les Erudits, dirigés par Janine. Abandonnant une ville à feu et à sang, à la recherche d’alliés, Tris et Four sont désormais traqués par les autorités. 
+"}, {"id": 3,"titre": "Un homme idéal","description": "Mathieu, 25 ans, aspire depuis toujours à devenir un auteur reconnu. Un rêve qui lui semble inaccessible car malgré tous ses efforts, il n’a jamais réussi à être édité. En attendant, il gagne sa vie en travaillant chez son oncle qui dirige une société de déménagement…
+"}, {"id": 4,"titre": "L\'Art de la fugue","description": "Antoine vit avec Adar, mais il rêve d’Alexis... Louis est amoureux de Mathilde alors il va épouser Julie... Gérard, qui n’aime qu’Hélène, tombera-t-il dans les bras d’Ariel ? Trois frères en pleine confusion... Comment, dès lors, retrouver un droit chemin ou échapper à ses responsabilités ? C’est là tout L’Art de la Fugue...
+"}, {"id": 5,"titre": "Un Village presque parfait","description": "\"Saint-Loin-la-Mauderne\", un petit village frappé de plein fouet par la crise et la désertification.
+Son dernier espoir : relancer l\'usine de fumage de saumon. Seul problème, les assurances exigent la présence d\'un médecin à demeure."}]
